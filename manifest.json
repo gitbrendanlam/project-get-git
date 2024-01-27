@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Get Git",
+    "version": "1.0",
+    "description" : "Never forget how to git. *Not sponsored by Matt*",
+    "content_scripts" : [
+      {
+        "matches" : ["https://github.com/"],
+        "js" : ["./main.js"]
+      }
+    ]
+  }

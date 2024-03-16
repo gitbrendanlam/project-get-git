@@ -14,7 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
     title.innerText = "Get Git";
     body.appendChild(title);
   
-    document.querySelector("#responsive-meta-container > div > div:nth-child(2)").style.color = "red"
+
+    const codeButton = document.getElementById(':r12:')
+    codeButton.addEventListener('click', () => {
+        codeButton.style.color = "red"
+    })
+    
     // fetch('https://github.com/gitbrendanlam/project-get-git/tree/main')
     //   .then( response => response.text())
     //   .then(response => {console.log(response)});
